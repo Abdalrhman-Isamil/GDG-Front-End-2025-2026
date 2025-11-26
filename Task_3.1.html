@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3.1 </title>
+</head>
+<body>
+    <form action="post">
+        <fieldset>
+            <legend>personal information</legend>
+            <label for="txt1">Name (Text )</label>
+        <input id="txt1" type="text" placeholder="Enter Your Name" required><br>
+        </fieldset>
+<br><hr>
+        <fieldset>
+            <legend>Contact && Security</legend>
+            <label for="pass1">password</label>
+    <input type="password" placeholder="Enter Your password" required><br><br>
+    <label for="email">email</label>
+    <input type="email"    placeholder="Enter Your email" required><br><br>
+        </fieldset>
+<br><hr>
+        <fieldset>
+            <legend>prefrance</legend>
+            <label for="color">color</label>
+            <input id="color" type="color">
+        </fieldset>
+<br><hr>
+        <fieldset>
+            <legend>Range && Options</legend>
+            <label for="range">Volume (Range 0-100)</label>
+            <input id="range" type="range" min="0" max="100" step="1" value="50"> <br><br>
+            <h4>Select Your Fav Pet </h4>
+    <div>
+        <input id="DOG" type="radio" value="DOG"name="animal"    >
+        <label for="DOG">DOG</label>
+    </div>
+
+
+    <div>
+        <input id="CAT" type="radio" value="CAT"name="animal"    >
+        <label for="CAT">CAT</label>
+    </div>
+
+    <div>
+        <input id="BIRD" type="radio" value="BIRD" name="animal"     >
+        <label for="BIRD">BIRD</label>
+    </div>
+    <br> 
+
+    <h4>inserts (Check All That Apply) </h4>
+
+    <div>
+        <input id="CODING" type="checkbox" value="CODING"name="Activity"    >
+        <label for="CODING">CODING</label>
+    </div>
+
+
+    <div>
+        <input  type="checkbox" value="MUSIC"name="Activity"    >
+        <label for="MUSIC">MUSIC</label>
+    </div>
+
+    <div>
+        <input id="TRAVEL" checked id="TRAVEL" type="checkbox" value="TRAVEL" name="Activity"     >
+        <label for="TRAVEL">TRAVEL</label>
+    </div>
+    <br> 
+        </fieldset>
+        <br><hr>
+
+<fieldset>
+    <legend>Section</legend>
+        <label for="cn">Choose A Country</label>
+        <select name="country" id="cn">
+    <optgroup label="Section 1">
+        <option value="eg">EGY</option>
+        <option value="mor">MORO</option>
+        <option value="us">USA</option>
+        <option selected value="ks">KSA</option>
+    </optgroup>
+</fieldset>
+        
+    </form>
+</body>
+</html>
